@@ -3,28 +3,28 @@
 Cómo pueden observar este proyecto está dividido en dos, y este es el Back end de todo el proyecto. Acá les voy a indicar paso por paso qué es lo que tienen que hacer para poder ver el proyecto sin ningún inconveniente.
 
  
-# 1 - Primer paso 
+# 1 - Primer paso: Dercargar
 
 Estar ubicado en el directorio en el cual se descargó este repositorio. 
 
  ../TenpoChallengeBack 
 
 
-# 2 - Segundo paso 
+# 2 - Segundo paso: Instalar dependencias 
 
 Escribir el siguiente comando en la terminal del editor de texto o en la terminal directamente 
 
 npm install
 
 
-# 3 - Tercer paso 
+# 3 - Tercer paso: Iniciar proyecto
 
 Escribir el siguiente comando en la terminal del editor de texto o en la terminal directamente 
 
 npm run dev 
 
 
-# 4 - Cuarto paso 
+# 4 - Cuarto paso: Ejecutar proyecto
 
 En este último paso no hay que hacer nada simplemente tienen que saber que el servidor de este back end va a estar funcionando en http://localhost:3000. Estar corriendo constantemente porque está instalada la librería - nodemon -
 
