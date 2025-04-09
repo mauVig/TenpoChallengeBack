@@ -35,9 +35,7 @@ export const getStart = async (req, res) => {
     .then(() => {
         // Acá se genera un token falso y se envía como header en la respuesta
         const token = fakeToken()
-        // Acá se genera un token falso y se envía como header en la respuesta
         res.header('token', token)
-
         // Acá lo que se hace es extraer los primeros 20 elementos de la lista 
         homeData = homeData.length >= 20 ? homeData.slice(0, 20) : homeData
         // Acá se guarda el último índice de los datos que se están enviando al front end
